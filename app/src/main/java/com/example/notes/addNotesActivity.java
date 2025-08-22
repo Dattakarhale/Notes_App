@@ -28,7 +28,7 @@ public class addNotesActivity extends AppCompatActivity {
 
             Intent editIntent = getIntent();
             if(editIntent.hasExtra("EDIT NOTE")){
-                setTitle("EDIT NOTE");
+                setTitle("MODIFY NOTE");
                 noteTitle.setText(editIntent.getStringExtra("NOTE TITLE"));
                 noteText.setText(editIntent.getStringExtra("NOTE TEXT"));
 
